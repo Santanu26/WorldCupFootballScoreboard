@@ -2,12 +2,28 @@ package org.score;
 
 public class Match {
 
-    private final String homeTeam;
+    private final Team homeTeam;
 
-    private final String awayTeam;
+    private final Team awayTeam;
 
-    public Match(String homeTeam, String awayTeam) {
+    public Match(Team homeTeam, Team awayTeam) {
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
+    }
+
+    public Team getHomeTeam() {
+        return homeTeam;
+    }
+
+    public Team getAwayTeam() {
+        return awayTeam;
+    }
+
+    @Override
+    public String toString() {
+        return "Match{" +
+                "homeTeam=" + homeTeam +
+                ", awayTeam=" + awayTeam +
+                '}';
     }
 }
