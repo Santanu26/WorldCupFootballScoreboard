@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="97769bf4-baec-4dcd-bb1a-45c296cbdde1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/score/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/score/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/Match.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/score/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/ScoreBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/score/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ScoreBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScoreBoardTest.java" afterDir="false" />
@@ -64,41 +64,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreBoardTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScoreBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorldCupFootballScoreborad" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
-      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreBoardTest.testFinishGameWithEmptyMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorldCupFootballScoreborad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
+      <option name="METHOD_NAME" value="testFinishGameWithEmptyMatches" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreBoardTest.startGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScoreBoardTest.testInvalidMatchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorldCupFootballScoreborad" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
-      <option name="METHOD_NAME" value="startGame" />
+      <option name="METHOD_NAME" value="testInvalidMatchUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreBoardTest.updateScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScoreBoardTest.testMatchSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorldCupFootballScoreborad" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
-      <option name="METHOD_NAME" value="updateScore" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScoreBoardTest.updateScoreShouldNotPutLessGoal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorldCupFootballScoreborad" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
-      <option name="METHOD_NAME" value="updateScoreShouldNotPutLessGoal" />
+      <option name="METHOD_NAME" value="testMatchSummary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,10 +117,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ScoreBoardTest.updateScoreShouldNotPutLessGoal" />
-        <item itemvalue="JUnit.ScoreBoardTest.updateScore" />
-        <item itemvalue="JUnit.ScoreBoardTest.startGame" />
-        <item itemvalue="JUnit.ScoreBoardTest.print" />
+        <item itemvalue="JUnit.ScoreBoardTest" />
+        <item itemvalue="JUnit.ScoreBoardTest.testInvalidMatchUpdate" />
+        <item itemvalue="JUnit.ScoreBoardTest.testMatchSummary" />
+        <item itemvalue="JUnit.ScoreBoardTest.testFinishGameWithEmptyMatches" />
       </list>
     </recent_temporary>
   </component>
@@ -140,11 +139,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ScoreBoardTest.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/score/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/score/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/score/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/score/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WorldCupFootballScoreboard$ScoreBoardTest_startGame.ic" NAME="ScoreBoardTest.startGame Coverage Results" MODIFIED="1697193686256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WorldCupFootballScoreboard$Main.ic" NAME="Main Coverage Results" MODIFIED="1697201330227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.score.*</FILTER>
+    </SUITE>
   </component>
 </project>
