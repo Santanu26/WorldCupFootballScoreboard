@@ -29,4 +29,15 @@ class ScoreBoardTest {
         assertEquals(initialScore, homeTeam.getScore());
         assertEquals(initialScore, awayTeam.getScore());
     }
+
+    //Finish a game:
+    // It will remove a match from the scoreboard.
+    @Test
+    void finishGame() {
+        int matchNo = 0;
+        if (matchNo < matches.size()) {
+            matches.remove(matchNo);
+        }
+        assertEquals(0, matches.size());
+    }
 }
