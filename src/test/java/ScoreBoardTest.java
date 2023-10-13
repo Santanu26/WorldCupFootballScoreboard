@@ -1,12 +1,14 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.score.Match;
+import org.score.ScoreBoard;
 import org.score.Team;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 class ScoreBoardTest {
 
@@ -19,7 +21,7 @@ class ScoreBoardTest {
 
     @Test
     void startGame() {
-        Team homeTeam = new Team("Mexico",0);
+        Team homeTeam = new Team("Mexico", 0);
         Team awayTeam = new Team("Canada", 0);
         Match match = new Match(homeTeam, awayTeam);
         matches.add(match);
@@ -35,9 +37,24 @@ class ScoreBoardTest {
     @Test
     void finishGame() {
         int matchNo = 0;
-        if (matchNo < matches.size()) {
-            matches.remove(matchNo);
-        }
+        matches.remove(matchNo);
         assertEquals(0, matches.size());
+    }
+
+    @Test
+    void updateScore() {
+        startGame();
+        int matchNo = 0;
+        int homeGoals = 1;
+        int awayGoals = 0;
+
+        Match match = matches.get(matchNo);
+        match.getHomeTeam().setScore(homeGoals);
+        match.getAwayTeam().setScore(awayGoals);
+
+        assertNotEquals(1, match.getAwayTeam().getScore());
+        assertNotEquals(0, match.getHomeTeam().getScore());
+
+        assertEquals(1, match.getHomeTeam().getScore());
     }
 }

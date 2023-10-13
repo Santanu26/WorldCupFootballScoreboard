@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97769bf4-baec-4dcd-bb1a-45c296cbdde1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/score/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/score/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/score/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/ScoreBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/score/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/score/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ScoreBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScoreBoardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -35,16 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/shantonu/WorldCupFootballScoreborad/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ScoreBoardTest.startGame">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.score.Main" />
       <module name="WorldCupFootballScoreborad" />
@@ -54,15 +60,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScoreBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorldCupFootballScoreborad" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,21 +74,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreBoardTest.should_start_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorldCupFootballScoreborad" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
-      <option name="METHOD_NAME" value="should_start_game" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScoreBoardTest.startGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorldCupFootballScoreborad" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
       <option name="METHOD_NAME" value="startGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreBoardTest.updateScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorldCupFootballScoreborad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
+      <option name="METHOD_NAME" value="updateScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreBoardTest.updateScoreShouldNotPutLessGoal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorldCupFootballScoreborad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScoreBoardTest" />
+      <option name="METHOD_NAME" value="updateScoreShouldNotPutLessGoal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ScoreBoardTest.updateScoreShouldNotPutLessGoal" />
+        <item itemvalue="JUnit.ScoreBoardTest.updateScore" />
         <item itemvalue="JUnit.ScoreBoardTest.startGame" />
         <item itemvalue="JUnit.ScoreBoardTest.print" />
-        <item itemvalue="JUnit.ScoreBoardTest.should_start_game" />
-        <item itemvalue="JUnit.ScoreBoardTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -128,5 +135,16 @@
       <updated>1697118602646</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ScoreBoardTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

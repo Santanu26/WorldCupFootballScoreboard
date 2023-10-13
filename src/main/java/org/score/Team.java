@@ -4,7 +4,7 @@ public class Team {
 
     private final String name;
 
-    private final int score;
+    private int score;
 
     public Team(String name, int score) {
         this.name = name;
@@ -17,6 +17,10 @@ public class Team {
 
     public int getScore() {
         return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 
     @Override
